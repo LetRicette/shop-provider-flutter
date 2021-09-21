@@ -19,16 +19,19 @@ class ProductItem extends StatelessWidget {
           leading: IconButton(
             onPressed: () {},
             icon: Icon(Icons.favorite),
+            color: Theme.of(context).accentColor,
           ),
           title: Text(
             product.title,
             textAlign: TextAlign.center,
           ),
           trailing: IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.shopping_cart_outlined,
-              )),
+            onPressed: () {},
+            icon: Icon(
+              Icons.shopping_cart_outlined,
+            ),
+            color: Theme.of(context).accentColor,
+          ),
         ),
       ),
     );
