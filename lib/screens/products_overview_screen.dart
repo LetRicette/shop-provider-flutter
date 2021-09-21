@@ -13,6 +13,7 @@ class ProductsOverViewPage extends StatelessWidget {
           title: Text(
             'Minha Loja',
           ),
+          centerTitle: true,
         ),
         body: Padding(
           padding: const EdgeInsets.all(10),
